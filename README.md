@@ -17,3 +17,18 @@ brew uninstall --cask --zap captainslog
 Empty the Trash to reclaim the model storage. Models in folders you selected yourself are left untouched.
 
 Project source, documentation, and release notes: https://github.com/vnglst/CaptainsLog
+
+## Caffeine and Pomodori
+
+Install on Apple Silicon Macs running macOS 12 Monterey or later:
+
+```sh
+brew install --cask vnglst/tap/caffeine
+brew install --cask vnglst/tap/pomodori
+```
+
+Caffeine prevents idle sleep; Pomodori is a menu bar Pomodoro timer.
+These apps are ad-hoc signed; their casks remove macOS quarantine like CaptainsLog.
+
+Source and releases: [Caffeine](https://github.com/vnglst/Caffeine),
+[Pomodori](https://github.com/vnglst/Pomodori).
